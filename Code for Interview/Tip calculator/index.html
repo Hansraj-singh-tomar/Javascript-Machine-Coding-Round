@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital Clock</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">    
+            <div class="leftBox">
+                <h3>Bill</h3>
+                <input type="number" id="amount"> ₹
+
+                <div class="selectTip">
+                    <h3>Select Tip %</h3>
+                    <div>
+                        <button class="tip">5%</button>
+                        <button class="tip">15%</button>
+                        <button class="tip">20%</button>
+                        <button class="tip">25%</button>
+                        <button class="tip">50%</button>
+                    </div>
+                </div>
+
+                <h3>Number Of People ⬇</h3>
+                <input type="number" id="people"> 
+                <br/>
+                <button id="btn1" class="btn">CALCULATE</button>
+            </div>
+            
+            <div class="rightBox">
+                <h4>Tip Amount: ₹<span id="tipamount">0</span>each</h4>
+                <h4>Total: ₹<span id="totalamount">0</span> each</h4>
+                <button id="btn2" class="btn">RESET</button>
+            </div>
+        </div>
+    </body>
+</html>
